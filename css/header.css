@@ -4,7 +4,7 @@ body {
 
 a {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 2vw;
 }
 
 header{
@@ -27,10 +27,10 @@ header nav a {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .logo{
-  margin-left: 20px;
+  margin-left: 3vw;
 }
 .logo a{
-  font-size: 48px;
+  font-size: 3vw;
   color: white;
 }
 .logo a span {
@@ -42,4 +42,20 @@ header nav a {
   height: 100%;
   width: 30%;
   justify-content: space-around;
+  margin-right: 2vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo a{
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width:550px){
+  .links a{
+    font-size: 3vw;
+  }
+  .links {
+    width: 40%;
+    margin-right: 2vw;
+  }
 }
