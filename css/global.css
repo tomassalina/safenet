@@ -1,5 +1,7 @@
 body {
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -7,12 +9,14 @@ a {
   font-size: 2vw;
 }
 
+/*Header*/
 header{
   background-color: #5C2F96;
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding: 10px 0px
+  padding: 10px 0px;
+  width:100%;
 }
 
 header nav {
@@ -68,3 +72,4 @@ header nav a {
     margin-right: 1vw;
   }
 }
+/*Header*/
