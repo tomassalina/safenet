@@ -42,20 +42,29 @@ header nav a {
   height: 100%;
   width: 30%;
   justify-content: space-around;
-  margin-right: 2vw;
+  margin-right: 1vw;
 }
 
 @media only screen and (max-width: 768px) {
   .logo a{
     font-size: 4vw;
   }
-}
-@media screen and (max-width:550px){
-  .links a{
+  .links a {
     font-size: 3vw;
   }
   .links {
-    width: 40%;
-    margin-right: 2vw;
+    width: 50%;
+  }
+}
+@media screen and (max-width:550px){
+  .logo a{
+    font-size: 6vw;
+  }
+  .links a{
+    font-size: 4vw;
+  }
+  .links {
+    width: 60%;
+    margin-right: 1vw;
   }
 }
