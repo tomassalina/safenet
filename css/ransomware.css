@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+header nav a {color: white;}
+
+body{
+    background-color: #2DA194;
+}
+
+
+h1.h1d{
+    font-size: 5vw;
+    color: #5C2F96 ;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0 3vh;
+    margin-bottom: 1vh;
+    font-weight: bolder;
+}
+
+section p {
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1vh;
+}
+
+strong{
+    color: antiquewhite;
+}
+
+.rojo {
+    color:#FF0000;
+    font-weight: bold;
+}
+
+.lila {
+    color: #5C2F96;
+    font-weight: bold;
+}
+
+.amarillo{
+    color: #FAFF00;
+    font-weight: bold;
+}
+
+
+section.textoExplicativo {
+    margin: 4vh 4vw 4vh 4vw;
+}
+
+section.final {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 6vh 4vw 4vh 4vw;
+}
+section.final h5{
+    font-size: 5vw;
+    text-align: center;
+    color: #5C2F96  ;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2vh;
+    font-weight: bolder;
+}
+
+
+.encierre{
+    display: flex;
+    padding: 1vh 1.5vw 2vh 1.2vw;
+    flex-direction: column;
+    background-color: #F2F6FC;
+    border-radius: 1vw;
+}
+
+.gmailImg{
+    width: 10%;
+}
+.gmailBarImg {
+    width: 5%;
+    height: 100%;
+}
+
+.encierraGmail{
+    display: flex;
+}
+
+.mensajeria{
+    margin-left: 2vw;
+    width: 100%;
+}
+
+.NavGmailMensajes {
+    display: flex;
+    color: black;
+
+}
+
+.NavGmailMensajes p{
+    color: black;
+    font-size: 2.5vw;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavGmailMensajes p img {
+    width: 15%;
+    height: 90%;
+}
+
+.principal  {
+    color: #0047FF !important;
+    border-bottom: 2px solid #0047FF ;
+    margin-right: 4vw;
+}
+
+.lugarMensajes{
+    width: 100%;
+}
+
+.mensajesDeMas{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.markImg {
+    width: 10%;
+    height: auto !important;
+}
+.mensjP{
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2vw;
+}
+
+.mensajeEjemplo{
+    border:  0.3vw #0095ffb6 solid;
+    border-radius: 0.7vw;
+}
+
+.remitente{
+    display: flex;
+    align-items: center;
+}
+.remitente img {
+    width: 10%;
+    height: auto;
+}
+
+.remitente p {
+    color: black;
+    font-size: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.transparencia {
+    color: rgba(0, 0, 0, 0.226);
+}
+
+.mensaje-interactivo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje-interactivo p {
+    color: black;
+    text-align: left;
+    font-size: 1.6vw;
+    width: 90%;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 1vh;
+}
+
+.asunto-interactivo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.2vw solid #9e989885;
+    border-radius: 0.6vw;
+    padding: 1px 1vw;
+}
+p.asunto-interactivo {
+    color: rgba(0, 0, 0, 0.426);
+}
+.asunto-interactivo a {
+    width: 4%;
+}
+.asunto-interactivo a img {
+    width: 100%;
+}
+
+@media screen and (max-width:760px ) {
+    .textoExplicativo p {
+        font-size: 5vw;
+    }
+    .prf3{
+        margin-bottom: 0;
+    }
+    h1{
+        font-size: 6vw;
+    }
+
+    /* Seccion ejemplo */
+    img.gmailImg{
+        width: 30%;
+    }
+    div.NavGmailMensajes p{
+        font-size: 4vw ;
+    }
+    img.gmailBarImg{
+        display: none;
+    }
+    div.remitente img{
+        width: 15%;
+    }
+    div.remitente p{
+        font-size: 3vw;
+    }
+    div.mensaje-interactivo p{
+        font-size: 4vw;
+    }
+    div.mensaje-interactivo a{
+        width: 8%;
+    }
+    div.mensajesDeMas{
+        display: none;
+    }
+
+
+    section.final {
+        margin-top: 3vh;
+    }
+    section.final h5{
+        font-size: 6vw;
+    }
+    section.final p{
+        font-size: 5vw;
+    }
+}

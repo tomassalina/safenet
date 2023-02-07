@@ -26,6 +26,23 @@ header nav {
   justify-content: space-between;
 }
 
+.links a:active{
+  color: white;
+  text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white, 0 0 50px white;
+}
+
+.links a:hover{
+  color: white;
+  text-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white, 0 0 50px white;
+}
+
+.logo a:active{
+  color: white;
+}
+.logo a:hover{
+  color: white;
+}
+
 header nav a {
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -49,7 +66,7 @@ header nav a {
   margin-right: 1vw;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .logo a{
     font-size: 4vw;
   }
