@@ -276,7 +276,6 @@ p.asunto-interactivo {
     margin-top: 2vh;
     font-size: 2vw;
     text-align: center;
-    text-align: left;
     margin-left: 5vw;
     margin-right: 5vw;
 }
@@ -293,7 +292,7 @@ p.asunto-interactivo {
     width: 70%;
     font-size: 2vw;
     color: red;
-    text-align: left;
+    text-align: center;
 }
 .pantallaso-texto-rojo img{
     width: 15%;
