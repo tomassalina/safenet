@@ -21,7 +21,7 @@ butDownload.addEventListener('click',function(){
                 footerHtml.style.display = "none";
                 secPan.style.display = "block";
                 cargar.style.display = "none";
-            }, 100);
+            }, 40);
         }
     }, 40);
 });
