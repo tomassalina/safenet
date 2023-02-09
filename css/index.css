@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #2DA194;
+    margin: 0;
+}
+
+
+
+/*---- M A I N ----- */
+/* P R I M E R      A R T I C U L O */
+.articulo {
+    display: flex;
+    margin-bottom: 10%;
+    justify-content: center;
+    margin-top: 50px;
+}
+.primer-articulo-izquierda{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 3.25vw;
+    text-align: center;
+    color: white;
+}
+.primer-articulo-izquierda span{
+    color: #5C2F96;
+}
+.primer-articulo-derecha{
+    width: 40%;
+}
+.primer-articulo-derecha img{
+    width: 100%;
+}
+@media screen and (max-width:760px) {
+    .primer-articulo-izquierda{
+        font-size: 4vw;
+        width: 70%;
+    }
+    .primer-articulo-derecha{
+        width: 30%;
+    }
+}
+
+/* 2 D O     A R T I C U L O */
+.segundo-articulo{
+    display: flex;
+    margin-bottom: 5vh;
+}
+.segundo-articulo-contenedor{
+    display:flex;
+    align-self: center;
+    background-color: aliceblue;
+    width: 95%;
+    margin: auto;
+    padding: 10vh 1vw;
+}
+.segundo-articulo-izquierda{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.segundo-articulo-izquierda img {
+    width: 70%;
+
+}
+.segundo-articulo-derecha{
+    width: 70%;
+    font-size: 2.25vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+p.texto-secundario{
+    width: 80%;
+}
+
+@media screen and (max-width:760px) {
+    .segundo-articulo-contenedor{
+        padding: 4vh 1vw;
+        justify-content: center;
+    }
+    .segundo-articulo-derecha{
+        font-size: 3.5vw;
+        width: 70%;
+    }
+    .segundo-articulo-izquierda{
+        width: 25%;
+    }
+}
+
+/* 3 E R      A R T I C U L O */
+.tercer-articulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+
+}
+.tercer-articulo h3 {
+    align-self: center;
+    margin-bottom: 6vh;
+    font-size: 3.25vw;
+    color: aliceblue;
+    font-family: 'Inter', sans-serif;
+}
+
+.contenedor-cartas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carta{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 1vh 1vh 2vh;
+    border-radius: 1vw;
+    transition: transform .1s;
+}
+.carta:hover{
+    box-shadow: 0 0 5px rgb(140, 241, 246), 0 0 15px rgb(140, 241, 246), 0 0 30px rgb(140, 241, 246), 0 0 50px rgb(140, 241, 246);
+    transform: scale(1.1); 
+}
+
+.carta figure {
+    width: 80%;
+}
+.carta figure img {
+    width: 100%;
+}
+
+.carta-detalle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.carta-detalle h4{
+    margin: 0;
+    margin-bottom: 1vh;
+    font-size: 2vw;
+
+}
+.carta-detalle a {
+    width: 80%;
+    padding: 1vh 0;
+    background-color: #5C2F96;
+    border: 2px solid #5C2F96;
+    border-radius: 1vw;
+    font-size: 2vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.carta-detalle a:hover{
+    background-color: #5C2F96;
+    color: white;
+}
+.carta-detalle a:active{
+    background-color: #5C2F96;
+}
+
+@media screen and (max-width:426px) {
+    .contenedor-cartas{
+        flex-direction: column;
+    }
+    .tercer-articulo h3{
+        font-size: 5vw;
+    }
+    .carta{
+        width: 50%;
+        margin-bottom: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        padding: 1vh 1vh 2vh;
+        border-radius: 1vw;
+        transition: transform .1s;
+    }
+    .carta-detalle h4{
+        font-size: 5vw;
+    }
+    .carta-detalle a{
+        font-size: 4vw;
+    }
+
+}
