@@ -43,6 +43,7 @@ h2{
 }
 .formulario h3 {
     font-size: 3vw;
+    text-align: center;
     font-family: 'Reem Kufi Fun', sans-serif;
     margin-bottom: 2vh;
     color: #ffffff;
@@ -147,7 +148,7 @@ p.barra-progreso-data {
     }
     
     .formulario h3 {
-        font-size: 6vw;
+        font-size: 5.7vw;
     }
     .formulario form label {
         font-size: 4vw;
