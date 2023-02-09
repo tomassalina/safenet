@@ -28,6 +28,12 @@ section p {
     font-family: 'Inter', sans-serif;
     padding-bottom: 1vh;
 }
+section.final p,
+section.textoExplicativo p {
+    font-size: 2vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
 
 strong{
     color: antiquewhite;
