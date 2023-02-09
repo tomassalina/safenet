@@ -25,18 +25,18 @@ let comprobarContraseña = setInterval(() => {
                 puntaje = 3;
                 if(contieneSim(contraseña)){
                     puntaje = 4;
-                }
-            }
-        }
-    }
+                }else {puntaje = 3}
+            }else {puntaje = 2}
+        }else {puntaje = 1}
+    }else{puntaje = 0}
     switch(puntaje){
         case 0 :    
         progreso.setAttribute("class","progreso");
-        progresoDat.innerHTML = "Inseguro";
+        progresoDat.innerHTML = "Insegura";
         break;
         case 1 :    
         progreso.setAttribute("class","progreso progreso-1");
-        progresoDat.innerHTML = "fácil";
+        progresoDat.innerHTML = "Fácil";
         break;
         case 2 :         
         progreso.setAttribute("class","progreso progreso-2");
@@ -45,13 +45,13 @@ let comprobarContraseña = setInterval(() => {
         case 3 :         
         progreso.setAttribute("class","progreso progreso-3");
         progresoDat.innerHTML = "Muy Buena";
-        breakle.log("Mayus");
+        break;
         case 4 :         
         progreso.setAttribute("class","progreso progreso-4");
         progresoDat.innerHTML = "Inhackeable";
         break
     }
-}, 600);
+}, 200);
 
 function contieneNumeros(contraseña){
     let analizar =  Array.from(contraseña);
