@@ -343,8 +343,8 @@ p.asunto-interactivo {
     background-color: #383838;
     overflow: hidden;
     border-radius: var(--border_r) ;
-    
 }
+
 .progreso{
     margin: 0;
     height: 100%;
@@ -353,13 +353,4 @@ p.asunto-interactivo {
     box-shadow: 0 0 10px #15699e, 0 0 20px #15699e;
     display: block;
     border-radius: var(--border_r);
-}
-
-#porcentaje{
-    font-size: 2vw;
-    font-family: sans-serif;
-    font-weight: bold;
-    text-align: center;
-    transform: translateY(-3px);
-    color: #15699e;
 }
